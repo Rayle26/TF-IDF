@@ -20,7 +20,7 @@ class Links {
     
   void clickableArea() {
     noFill();
-    //noStroke();
+    noStroke();
     rect(xpos, ypos, textWidth, textHeight);
   }
   boolean isInside() {
